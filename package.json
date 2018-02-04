@@ -1,0 +1,23 @@
+{
+  "name": "machinations2",
+  "version": "0.0.1",
+  "description": "Economy and Resource modeling tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "nw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameDesignExpert/machinations2.git"
+  },
+  "author": "Christopher Lowenthal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GameDesignExpert/machinations2/issues"
+  },
+  "homepage": "https://github.com/GameDesignExpert/machinations2#readme",
+  "dependencies": {
+    "nw": "^0.20.3"
+  }
+}

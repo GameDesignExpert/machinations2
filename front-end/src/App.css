@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+canvas {
+  border: 1px black solid;
+  order: 1;
+}
+
+.Tools {
+  order: 2;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row;
+}
+
+.Tool {
+  width: 50px;
+  height: 50px;
+  text-overflow: hidden;
+  border: 1px solid green;
+  padding: 0;
+}
+
+.Tool.active {
+  background: green;
+}
